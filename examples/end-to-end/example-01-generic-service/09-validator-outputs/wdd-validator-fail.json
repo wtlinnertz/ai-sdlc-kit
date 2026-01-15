@@ -1,0 +1,19 @@
+{
+  "status": "NOT_READY",
+  "summary": "WDD items bundle multiple outcomes and leave execution details ambiguous.",
+  "hard_gates": {
+    "traceability": "PASS",
+    "scope": "PASS",
+    "atomicity": "FAIL",
+    "inputs_outputs": "FAIL",
+    "acceptance_criteria": "PASS",
+    "granularity": "FAIL",
+    "readiness": "FAIL"
+  },
+  "blocking_issues": [
+    "A single work item combines API implementation and test creation.",
+    "Inputs required to execute work items are not explicitly listed.",
+    "Work items imply changes across multiple subsystems."
+  ],
+  "confidence": "High"
+}
