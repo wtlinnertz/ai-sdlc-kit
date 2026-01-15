@@ -1,0 +1,19 @@
+{
+  "status": "NOT_READY",
+  "summary": "SAD introduces ambiguity and deferred decisions that prevent promotion to technical design.",
+  "hard_gates": {
+    "intent_alignment": "PASS",
+    "scope": "FAIL",
+    "boundaries": "PASS",
+    "architecture": "PASS",
+    "decisions": "FAIL",
+    "guardrails": "PASS",
+    "readiness": "FAIL"
+  },
+  "blocking_issues": [
+    "Scope does not explicitly exclude write or mutation capabilities.",
+    "Key architectural decisions are described but not resolved or deferred explicitly.",
+    "Deferred decisions section is missing."
+  ],
+  "confidence": "High"
+}
