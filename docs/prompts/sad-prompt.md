@@ -21,5 +21,3 @@ OUTPUT:
 Produce a SAD using the SAD template exactly as written.
 Do not add sections.
 Do not add rationale beyond what the template requests.
-
-BEGIN SAD TEMPLATE.
