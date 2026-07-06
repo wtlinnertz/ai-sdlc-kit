@@ -94,7 +94,6 @@ Use DCFs to:
 
 Do not hardcode these into templates.
 
-
 ### 3. Validator integration points
 
 You may:
@@ -108,7 +107,6 @@ You may also:
 - Add **additional validators**
 
 Do not weaken existing gates without understanding the trade-offs.
-
 
 ### 4. Work system field mapping
 
@@ -125,7 +123,6 @@ This does **not** require changing:
 
 Map the model to your tooling, not the other way around.
 
-
 ### 5. Enforcement strictness (carefully)
 
 You may choose:
@@ -140,7 +137,6 @@ If you allow exceptions:
 
 Invisible exceptions rot the system.
 
-
 ## What you should avoid customizing early
 
 These changes usually cause more harm than good.
@@ -150,24 +146,20 @@ Example: “Let’s merge SAD and TDD.”
 
 This removes clarity and makes validation harder.
 
-
 ### ❌ Making Validators Helpful
 Example: “Let’s have the validator suggest improvements.”
 
 This causes silent redesign and scope creep.
-
 
 ### ❌ Overloading Templates
 Example: Adding org-specific fields everywhere.
 
 Use ACFs and DCFs instead.
 
-
 ### ❌ Removing Intent Verification from Prompts
 Intent verification is the cheapest alignment step in the system.
 
 Removing it from prompts costs more later. Validators catch misalignment, but only after a full generation cycle.
-
 
 ## Setting up your project
 
@@ -257,7 +249,6 @@ At minimum, the instruction file should reference:
 
 This is especially important when the kit is a shared repository separate from the project repo. The ai needs to know where to find both.
 
-
 ### Where validator results live
 
 Store the final passing validator result alongside the artifact it validated:
@@ -273,7 +264,6 @@ my-app/
 ```
 
 The pattern is `{nn}-{type}-validation.json`. Store only the final passing result: the one that gates the freeze decision. Earlier failed attempts are in git history if needed.
-
 
 ## Proportional use: when to abbreviate the artifact chain
 
@@ -316,7 +306,6 @@ Regardless of work type or scope:
 
 Proportional governance means doing less paperwork for smaller work. It does not mean skipping the quality bar for the work you do.
 
-
 ## Recommended adoption path
 
 A proven, low-risk path:
@@ -332,7 +321,6 @@ A proven, low-risk path:
 
 Do not start by changing templates or validators.
 
-
 ## Scaling across teams
 
 When scaling:
@@ -343,7 +331,6 @@ When scaling:
 - Allow team-level extensions that add constraints without contradicting shared standards
 
 The model scales best when **context is centralized** and **execution is decentralized**.
-
 
 ## Using complexity estimates for planning
 
@@ -409,7 +396,6 @@ To build this calibration:
 - If most items are sized L, the WDD may need further decomposition (granularity rules may not be strict enough)
 - If all items are sized S, the TDD scope may be too small for structured governance overhead
 
-
 ## Parallel development with interface contracts
 
 One of the most practical benefits of the TDD's **§4 Interfaces and Contracts** section is enabling developers to work in parallel across component boundaries. A frontend developer and a middleware developer, or a middleware developer and a database developer, coding simultaneously against an agreed contract.
@@ -465,7 +451,6 @@ If a TDD contract needs to change after freeze, the standard re-entry protocol a
 
 This is why freezing the TDD before execution matters. It prevents the contract from shifting under developers who are already coding against it.
 
-
 ## Common failure modes
 
 Watch for:
@@ -476,7 +461,6 @@ Watch for:
 - Teams copying examples without adapting context
 
 These are signals to tighten enforcement, not loosen it.
-
 
 ## Final guidance
 

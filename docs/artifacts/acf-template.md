@@ -24,7 +24,7 @@ What guardrails does this ACF exist to enforce?
 - Identity model (high level):
 
 ## 2a. Platform Context
-[ ] PINFK adopted — PDR IDs: ___, ISPEC ID: ___ | [ ] PINFK not adopted — platform assumptions: ___
+[ ] PINFK adopted — PDR IDs: \_\_\_, ISPEC ID:\_\_\_ | [ ] PINFK not adopted — platform assumptions: \_\_\_
 
 ## 3. Security Guardrails (Hard)
 Examples (customize to your organization’s baseline):
