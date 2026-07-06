@@ -46,7 +46,6 @@ See the kit's playbook.md for the full process definition.
 
 This ensures every AI session. regardless of tool. starts with the right context without requiring you to re-explain the kit each time.
 
-
 ## The Core Pattern
 
 Every artifact follows the same three-step pattern:
@@ -56,7 +55,6 @@ Every artifact follows the same three-step pattern:
 3. **Freeze**. Once PASS and human-approved, the artifact is locked
 
 Each step is a separate AI session. This keeps context clean and prevents the AI from conflating artifacts.
-
 
 ## Generating an Artifact
 
@@ -100,7 +98,6 @@ The AI will produce a SAD that follows the template structure, satisfies the spe
 - **Include the spec.** The spec defines what quality criteria the content must satisfy. Without it, the AI relies only on embedded prompt rules.
 - **Include the template.** Without it, the AI may invent its own structure, making validation harder.
 - **Don't prompt the AI to be creative.** The prompts are designed to constrain output. Let them work.
-
 
 ## Validating an Artifact
 
@@ -163,7 +160,6 @@ If the same AI that generated the artifact also validates it, it has a bias towa
 3. Re-run the validator in a new session
 4. If the same gate keeps failing after two cycles, the root cause may be in an upstream artifact. See the re-entry protocol in the playbook
 
-
 ## Inputs by Artifact Type
 
 | Artifact | Spec | Prompt | Inputs |
@@ -194,7 +190,6 @@ These prompts produce input material or advisory outputs. They are not governed 
 | `bat-prompt.md` | Generate business acceptance testing protocol and results template for a work group | WDD work group + member items |
 | `team-composition-prompt.md` | Derive team roles, skills, and deliverables from work items | Frozen WDD + Frozen TDD (recommended) |
 | `wdd-csv-export-prompt.md` | Export WDD work items as CSV for import into work management tools | Frozen WDD + optional field mapping override |
-
 
 ## The Execution Loop
 
@@ -253,7 +248,6 @@ Use `execution-plan-code-prompt.md` (after Phase 2) and `execution-plan-review-p
 
 Each phase prompt assembles everything. No manual input gathering needed.
 
-
 ## Practical Workflow Summary
 
 ```
@@ -265,7 +259,6 @@ Session 3:  human reviews, approves, freezes
 ```
 
 Repeat for each artifact in the flow: PRD → ACF → SAD → DCF → TDD → WDD → Execute → ORD.
-
 
 ## Common Mistakes
 

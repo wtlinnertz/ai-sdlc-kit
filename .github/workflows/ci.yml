@@ -1,0 +1,11 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  kit-ci:
+    uses: wtlinnertz/aieos-governance-foundation/.github/workflows/kit-ci.yml@main
