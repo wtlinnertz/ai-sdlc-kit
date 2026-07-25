@@ -1,16 +1,20 @@
 # PRD Template (Product Requirements Document)
 
 ## 0. Document Control
-- Product / Initiative Name:
-- PRD ID:
-- Author:
-- Date:
-- Status: Draft | Approved | Freeze Pending | Frozen
-- Governance Model Version: 1.0
-- Prompt Version: {prompt version}
-- Spec Version: {spec version}
-- Principles Version: {principles file versions}
-- Related Links:
+
+| Field | Value |
+|-------|-------|
+| Artifact ID | PRD-{PROJECT}-{NNN} |
+| Owner | {owner} |
+| Status | DRAFT |
+| Product / Initiative Name | |
+| Author | |
+| Date | |
+| Governance Model Version | 1.0 |
+| Prompt Version | {prompt version} |
+| Spec Version | {spec version} |
+| Principles Version | {principles file versions} |
+| Related Links | |
 
 ## 1. Problem Statement
 - What problem are we solving?

@@ -4,17 +4,20 @@ The DKR defines the **domain model** — concepts, relationships, rules, languag
 It is architecture-agnostic and constrains SAD and TDD creation.
 
 ## 1. Document Control
-- DKR ID:
-- Initiative/Scope:
-- Owner:
-- Date:
-- Status: Draft | Approved | Freeze Pending | Frozen
-- Applicability Scope: (e.g., "All initiatives in the CI/CD domain", "Payment processing services")
-- Version:
-- Governance Model Version: 1.0
-- Prompt Version: {prompt version}
-- Spec Version: {spec version}
-- Principles Version: {principles file versions}
+
+| Field | Value |
+|-------|-------|
+| Artifact ID | DKR-{PROJECT}-{NNN} |
+| Owner | {owner} |
+| Status | DRAFT |
+| Initiative/Scope | |
+| Date | |
+| Applicability Scope | (e.g., "All initiatives in the CI/CD domain", "Payment processing services") |
+| Version | |
+| Governance Model Version | 1.0 |
+| Prompt Version | {prompt version} |
+| Spec Version | {spec version} |
+| Principles Version | {principles file versions} |
 
 ## 2. Ubiquitous Language
 

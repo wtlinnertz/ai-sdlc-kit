@@ -1,11 +1,17 @@
 # BAT Escalation Record
 
 ## Document Control
-- Work Group: WG-{n}: {group name}
-- WDD ID: {WDD artifact ID}
-- BAT Results Reference: {nn}-wg-{n}-bat-results.md
-- Escalated By: {named individual}
-- Date: {date}
+
+| Field | Value |
+|-------|-------|
+| Artifact ID | N/A |
+| Owner | {owner} |
+| Status | DRAFT |
+| Work Group | WG-{n}: {group name} |
+| WDD ID | {WDD artifact ID} |
+| BAT Results Reference | {nn}-wg-{n}-bat-results.md |
+| Escalated By | {named individual} |
+| Date | {date} |
 
 ## Failing Criterion
 

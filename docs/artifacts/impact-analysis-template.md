@@ -3,12 +3,17 @@
 The impact analysis assesses the downstream ripple effects of a proposed change to a frozen SDLC artifact. It maps what is affected and how severely, enabling informed re-entry decisions.
 
 ## Document Control
-- Report ID: IA-{PROJECT}-{NNN}
-- Date:
-- Proposed Change Source: {addendum draft | change description | bug report | feature request}
-- Governance Model Version: 1.0
-- Spec Version: {spec version}
-- Principles Version: {principles file versions}
+
+| Field | Value |
+|-------|-------|
+| Artifact ID | IA-{PROJECT}-{NNN} |
+| Owner | {owner} |
+| Status | DRAFT |
+| Date | |
+| Proposed Change Source | {addendum draft / change description / bug report / feature request} |
+| Governance Model Version | 1.0 |
+| Spec Version | {spec version} |
+| Principles Version | {principles file versions} |
 
 ## Change Target
 - Target Artifact: {artifact type and ID being changed}

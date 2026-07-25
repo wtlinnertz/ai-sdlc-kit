@@ -3,12 +3,17 @@
 The execution plan determines work item execution order and extracts the specific upstream artifact sections each work item needs during the four-phase execution loop (Tests → Plan → Code → Review).
 
 ## Document Control
-- Plan ID: EP-{PROJECT}-{NNN}
-- Date:
-- Governance Model Version: 1.0
-- Spec Version: {spec version}
-- Principles Version: {principles file versions}
-- Related Links:
+
+| Field | Value |
+|-------|-------|
+| Artifact ID | EP-{PROJECT}-{NNN} |
+| Owner | {owner} |
+| Status | DRAFT |
+| Date | |
+| Governance Model Version | 1.0 |
+| Spec Version | {spec version} |
+| Principles Version | {principles file versions} |
+| Related Links | |
 
 ## Baseline Metrics (Pre-Execution)
 

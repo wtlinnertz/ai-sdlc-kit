@@ -4,15 +4,18 @@ The ACF defines **architecture guardrails** that constrain the SAD and downstrea
 It is reusable across many initiatives.
 
 ## 0. Document Control
-- ACF ID:
-- Owner:
-- Date:
-- Status: Draft | Approved | Freeze Pending | Frozen
-- Governance Model Version: 1.0
-- Prompt Version: {prompt version}
-- Spec Version: {spec version}
-- Principles Version: {principles file versions}
-- Applies To: (e.g., “All services”, “All platform workloads”, “This domain only”)
+
+| Field | Value |
+|-------|-------|
+| Artifact ID | ACF-{PROJECT}-{NNN} |
+| Owner | {owner} |
+| Status | DRAFT |
+| Date | |
+| Governance Model Version | 1.0 |
+| Prompt Version | {prompt version} |
+| Spec Version | {spec version} |
+| Principles Version | {principles file versions} |
+| Applies To | (e.g., “All services”, “All platform workloads”, “This domain only”) |
 
 ## 1. Purpose
 What guardrails does this ACF exist to enforce?

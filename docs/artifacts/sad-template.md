@@ -1,15 +1,20 @@
 # SAD Template (System Architecture Design)
 
 ## 0. Document Control
-- System Name:
-- SAD ID:
-- Author:
-- Date:
-- Status: Draft | Approved | Freeze Pending | Frozen
-- Governance Model Version: 1.0
-- Prompt Version: {prompt version}
-- Spec Version: {spec version}
-- Principles Version: {principles file versions}
+
+| Field | Value |
+|-------|-------|
+| Artifact ID | SAD-{PROJECT}-{NNN} |
+| Owner | {owner} |
+| Status | DRAFT |
+| System Name | |
+| Author | |
+| Date | |
+| Governance Model Version | 1.0 |
+| Prompt Version | {prompt version} |
+| Spec Version | {spec version} |
+| Principles Version | {principles file versions} |
+
 - Upstream Artifacts:
   - PRD ID / Link:
   - ACF ID / Link:
