@@ -3,11 +3,16 @@
 The consistency check verifies that intent, requirements, constraints, and scope flow consistently from upstream artifacts to downstream artifacts without gaps, contradictions, or unauthorized expansion.
 
 ## Document Control
-- Report ID: CC-{PROJECT}-{NNN}
-- Date:
-- Governance Model Version: 1.0
-- Spec Version: {spec version}
-- Principles Version: {principles file versions}
+
+| Field | Value |
+|-------|-------|
+| Artifact ID | CC-{PROJECT}-{NNN} |
+| Owner | {owner} |
+| Status | DRAFT |
+| Date | |
+| Governance Model Version | 1.0 |
+| Spec Version | {spec version} |
+| Principles Version | {principles file versions} |
 
 ## Artifacts Checked
 

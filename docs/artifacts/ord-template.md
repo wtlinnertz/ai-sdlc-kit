@@ -5,14 +5,19 @@ Verify that operational requirements from the TDD, ACF, and DCF have been implem
 The ORD is an **evidence-gathering artifact** — it does not define new requirements. Every verification item traces to a specific upstream requirement.
 
 ## 0. Document Control
-- ORD ID:
-- Author:
-- Date:
-- Status: Draft | Approved | Freeze Pending | Frozen
-- Governance Model Version: 1.0
-- Prompt Version: {prompt version}
-- Spec Version: {spec version}
-- Principles Version: {principles file versions}
+
+| Field | Value |
+|-------|-------|
+| Artifact ID | ORD-{PROJECT}-{NNN} |
+| Owner | {owner} |
+| Status | DRAFT |
+| Author | |
+| Date | |
+| Governance Model Version | 1.0 |
+| Prompt Version | {prompt version} |
+| Spec Version | {spec version} |
+| Principles Version | {principles file versions} |
+
 - Upstream Artifacts:
   - TDD ID / Link:
   - ACF ID / Link:

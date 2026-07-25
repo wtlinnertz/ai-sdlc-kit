@@ -3,12 +3,17 @@
 The DoR evaluates whether a WDD work item is complete and unambiguous enough to begin execution. It is a per-item readiness gate.
 
 ## Document Control
-- Report ID: DoR-{PROJECT}-{NNN}
-- WDD Item ID: {WDD item ID being evaluated}
-- Date:
-- Governance Model Version: 1.0
-- Spec Version: {spec version}
-- Principles Version: {principles file versions}
+
+| Field | Value |
+|-------|-------|
+| Artifact ID | DoR-{PROJECT}-{NNN} |
+| Owner | {owner} |
+| Status | DRAFT |
+| WDD Item ID | {WDD item ID being evaluated} |
+| Date | |
+| Governance Model Version | 1.0 |
+| Spec Version | {spec version} |
+| Principles Version | {principles file versions} |
 
 ## Work Item Under Evaluation
 

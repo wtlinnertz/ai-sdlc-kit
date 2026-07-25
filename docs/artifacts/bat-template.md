@@ -1,16 +1,22 @@
 # BAT Results: WG-{n} — {group name}
 
 ## Document Control
-- Work Group: WG-{n}: {group name}
-- WDD ID: {WDD artifact ID}
-- Tested By:
-- Date:
-- Environment:
-- Build / Commit:
-- Governance Model Version: 1.0
-- Prompt Version: {prompt version}
-- Spec Version: {spec version}
-- Principles Version: {principles file versions}
+
+| Field | Value |
+|-------|-------|
+| Artifact ID | N/A |
+| Owner | {owner} |
+| Status | DRAFT |
+| Work Group | WG-{n}: {group name} |
+| WDD ID | {WDD artifact ID} |
+| Tested By | |
+| Date | |
+| Environment | |
+| Build / Commit | |
+| Governance Model Version | 1.0 |
+| Prompt Version | {prompt version} |
+| Spec Version | {spec version} |
+| Principles Version | {principles file versions} |
 
 ## Step Results
 

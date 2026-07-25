@@ -1,15 +1,20 @@
 # TDD Template (Technical Design Document)
 
 ## 0. Document Control
-- System / Component Name:
-- TDD ID:
-- Author:
-- Date:
-- Status: Draft | Approved | Freeze Pending | Frozen
-- Governance Model Version: 1.0
-- Prompt Version: {prompt version}
-- Spec Version: {spec version}
-- Principles Version: {principles file versions}
+
+| Field | Value |
+|-------|-------|
+| Artifact ID | TDD-{PROJECT}-{NNN} |
+| Owner | {owner} |
+| Status | DRAFT |
+| System / Component Name | |
+| Author | |
+| Date | |
+| Governance Model Version | 1.0 |
+| Prompt Version | {prompt version} |
+| Spec Version | {spec version} |
+| Principles Version | {principles file versions} |
+
 - Upstream Artifacts:
   - SAD ID / Link:
   - ACF ID / Link (if applicable):

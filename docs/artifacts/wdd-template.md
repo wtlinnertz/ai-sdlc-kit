@@ -3,14 +3,19 @@
 Translate a frozen TDD into **atomic, executable work items** suitable for AI agents or humans.
 
 ## 0. Document Control
-- WDD ID:
-- Author:
-- Date:
-- Status: Draft | Approved | Freeze Pending | Frozen
-- Governance Model Version: 1.0
-- Prompt Version: {prompt version}
-- Spec Version: {spec version}
-- Principles Version: {principles file versions}
+
+| Field | Value |
+|-------|-------|
+| Artifact ID | WDD-{PROJECT}-{NNN} |
+| Owner | {owner} |
+| Status | DRAFT |
+| Author | |
+| Date | |
+| Governance Model Version | 1.0 |
+| Prompt Version | {prompt version} |
+| Spec Version | {spec version} |
+| Principles Version | {principles file versions} |
+
 - Parent TDD:
   - TDD ID / Link:
   - TDD Status: Frozen (required)

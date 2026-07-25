@@ -4,15 +4,18 @@ The DCF defines **design standards and expectations** that constrain TDD creatio
 It is reusable across many initiatives.
 
 ## 0. Document Control
-- DCF ID:
-- Owner:
-- Date:
-- Status: Draft | Approved | Freeze Pending | Frozen
-- Governance Model Version: 1.0
-- Prompt Version: {prompt version}
-- Spec Version: {spec version}
-- Principles Version: {principles file versions}
-- Applies To: (e.g., “All delivery designs”, “This platform only”)
+
+| Field | Value |
+|-------|-------|
+| Artifact ID | DCF-{PROJECT}-{NNN} |
+| Owner | {owner} |
+| Status | DRAFT |
+| Date | |
+| Governance Model Version | 1.0 |
+| Prompt Version | {prompt version} |
+| Spec Version | {spec version} |
+| Principles Version | {principles file versions} |
+| Applies To | (e.g., “All delivery designs”, “This platform only”) |
 
 ## 1. Purpose
 What design-level standards does this DCF enforce?

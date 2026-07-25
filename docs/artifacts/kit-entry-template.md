@@ -8,14 +8,18 @@ This record is **human-authored**. It is validated against `kit-entry-spec.md` b
 
 ## Document Control
 
-- Record ID: (e.g., KER-2026-001)
-- Date:
-- Initiated By:
-- Work Summary: (1-2 sentences describing what this EEK engagement will deliver)
-- Governance Model Version: 1.0
-- Prompt Version: N/A
-- Spec Version: {spec version}
-- Principles Version: {principles file versions}
+| Field | Value |
+|-------|-------|
+| Artifact ID | KER-{YYYY}-{NNN} |
+| Owner | {owner} |
+| Status | DRAFT |
+| Date | |
+| Initiated By | |
+| Work Summary | (1-2 sentences describing what this EEK engagement will deliver) |
+| Governance Model Version | 1.0 |
+| Prompt Version | N/A |
+| Spec Version | {spec version} |
+| Principles Version | {principles file versions} |
 
 ---
 
