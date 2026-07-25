@@ -8,4 +8,4 @@ on:
 
 jobs:
   kit-ci:
-    uses: wtlinnertz/aieos-governance-foundation/.github/workflows/kit-ci.yml@feat/g2-doc-control
+    uses: wtlinnertz/aieos-governance-foundation/.github/workflows/kit-ci.yml@main
