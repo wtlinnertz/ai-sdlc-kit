@@ -1,0 +1,25 @@
+# Gold case (FR-014 slice 3). Labels ratified by a human before commit.
+case_id: mutant-intent-integrity
+artifact_type: SAD
+validator: sad-validator
+input_path: inputs/mutant-intent-integrity.md
+input_sha256: a4cdcac670ac734ec058a1c2c98870b9316b9810e628be6591a9ca46a4f85478
+expected_gates:
+  intent_integrity: FAIL
+  scope_discipline: PASS
+  upstream_traceability: PASS
+  structural_diagrams: PASS
+  cross_cutting_concerns: PASS
+  data_integration: PASS
+  failure_modes: PASS
+  quality_attributes: PASS
+  deferred_decisions: PASS
+  risk_awareness: PASS
+  guardrail_alignment: PASS
+  implementation_leakage: PASS
+  layer_assignment: PASS
+  integration_contracts: PASS
+spec_exemption_case: false
+labeled_by: Todd Linnertz
+labeled_date: "2026-08-15"
+source: "Single-gate mutant of the corrected example SAD"

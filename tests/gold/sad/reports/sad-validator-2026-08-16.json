@@ -1,0 +1,134 @@
+{
+  "report_version": "1.0",
+  "validator": "sad-validator",
+  "artifact_type": "SAD",
+  "role": "freeze-gate",
+  "judge": {
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_sha256": "b9b8903aadbf589ceaaedd6f276e0410f9ba160ae6fcec2c70dc5afcc4aa993c"
+  },
+  "run_date": "2026-08-16T03:18:21Z",
+  "case_count": 12,
+  "runs_per_case": 3,
+  "gate_agreement": 0.8392857142857143,
+  "false_pass_count": 3,
+  "stability_flips": [
+    {
+      "case_id": "example-fail-baseline",
+      "gate": "data_integration"
+    },
+    {
+      "case_id": "example-pass-corrected",
+      "gate": "integration_contracts"
+    },
+    {
+      "case_id": "mutant-integration-contracts",
+      "gate": "upstream_traceability"
+    },
+    {
+      "case_id": "mutant-integration-contracts",
+      "gate": "data_integration"
+    },
+    {
+      "case_id": "mutant-integration-contracts",
+      "gate": "layer_assignment"
+    },
+    {
+      "case_id": "mutant-layer-assignment",
+      "gate": "structural_diagrams"
+    },
+    {
+      "case_id": "mutant-layer-assignment",
+      "gate": "data_integration"
+    }
+  ],
+  "kappa": 0.276324186343331,
+  "verdict": "FAIL",
+  "gates": {
+    "intent_integrity": {
+      "agreements": 33,
+      "total": 36,
+      "false_pass": 1,
+      "flips": 0
+    },
+    "scope_discipline": {
+      "agreements": 33,
+      "total": 36,
+      "false_pass": 1,
+      "flips": 0
+    },
+    "upstream_traceability": {
+      "agreements": 28,
+      "total": 36,
+      "false_pass": 1,
+      "flips": 1
+    },
+    "structural_diagrams": {
+      "agreements": 34,
+      "total": 36,
+      "false_pass": 0,
+      "flips": 1
+    },
+    "cross_cutting_concerns": {
+      "agreements": 36,
+      "total": 36,
+      "false_pass": 0,
+      "flips": 0
+    },
+    "data_integration": {
+      "agreements": 16,
+      "total": 36,
+      "false_pass": 0,
+      "flips": 3
+    },
+    "failure_modes": {
+      "agreements": 36,
+      "total": 36,
+      "false_pass": 0,
+      "flips": 0
+    },
+    "quality_attributes": {
+      "agreements": 33,
+      "total": 36,
+      "false_pass": 0,
+      "flips": 0
+    },
+    "deferred_decisions": {
+      "agreements": 36,
+      "total": 36,
+      "false_pass": 0,
+      "flips": 0
+    },
+    "risk_awareness": {
+      "agreements": 33,
+      "total": 36,
+      "false_pass": 0,
+      "flips": 0
+    },
+    "guardrail_alignment": {
+      "agreements": 36,
+      "total": 36,
+      "false_pass": 0,
+      "flips": 0
+    },
+    "implementation_leakage": {
+      "agreements": 36,
+      "total": 36,
+      "false_pass": 0,
+      "flips": 0
+    },
+    "layer_assignment": {
+      "agreements": 16,
+      "total": 36,
+      "false_pass": 0,
+      "flips": 1
+    },
+    "integration_contracts": {
+      "agreements": 17,
+      "total": 36,
+      "false_pass": 0,
+      "flips": 1
+    }
+  }
+}
