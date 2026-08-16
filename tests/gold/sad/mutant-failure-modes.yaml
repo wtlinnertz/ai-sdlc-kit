@@ -1,0 +1,25 @@
+# Gold case (FR-014 slice 3). Labels ratified by a human before commit.
+case_id: mutant-failure-modes
+artifact_type: SAD
+validator: sad-validator
+input_path: inputs/mutant-failure-modes.md
+input_sha256: ad46ace932748193c38a2508974999adc9e43313c07c3d1019f2a71688e0a5d9
+expected_gates:
+  intent_integrity: PASS
+  scope_discipline: PASS
+  upstream_traceability: PASS
+  structural_diagrams: PASS
+  cross_cutting_concerns: PASS
+  data_integration: PASS
+  failure_modes: FAIL
+  quality_attributes: PASS
+  deferred_decisions: PASS
+  risk_awareness: PASS
+  guardrail_alignment: PASS
+  implementation_leakage: PASS
+  layer_assignment: PASS
+  integration_contracts: PASS
+spec_exemption_case: false
+labeled_by: Todd Linnertz
+labeled_date: "2026-08-15"
+source: "Single-gate mutant"
